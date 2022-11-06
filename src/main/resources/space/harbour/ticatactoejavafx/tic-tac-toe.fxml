@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="space.harbour.ticatactoejavafx.BoardController">
+   <children>
+      <Line endX="202.0" endY="606.0" startX="202.0" strokeWidth="4.0" />
+      <Line endX="404.0" endY="606.0" startX="404.0" strokeWidth="4.0" />
+      <Line endX="606.0" endY="202.0" startY="202.0" strokeWidth="4.0" />
+      <Line endX="606.0" endY="406.0" startY="406.0" strokeWidth="4.0" />
+      <ImageView fx:id="view11" fitHeight="200.0" fitWidth="200.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="view12" fitHeight="200.0" fitWidth="200.0" layoutX="201.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" x="1.0" y="1.0" />
+      <ImageView fx:id="view13" fitHeight="200.0" fitWidth="200.0" layoutX="405.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" x="1.0" y="1.0" />
+      <ImageView fx:id="view21" fitHeight="200.0" fitWidth="200.0" layoutY="203.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="view22" fitHeight="200.0" fitWidth="200.0" layoutX="201.0" layoutY="203.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" x="1.0" y="1.0" />
+      <ImageView fx:id="view23" fitHeight="200.0" fitWidth="200.0" layoutX="405.0" layoutY="203.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" x="1.0" y="1.0" />
+      <ImageView fx:id="view31" fitHeight="200.0" fitWidth="200.0" layoutX="0.0" layoutY="407.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="view32" fitHeight="200.0" fitWidth="200.0" layoutX="201.0" layoutY="407.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" x="1.0" y="1.0" />
+      <ImageView fx:id="view33" fitHeight="200.0" fitWidth="200.0" layoutX="405.0" layoutY="407.0" onMouseClicked="#makeMove" pickOnBounds="true" preserveRatio="true" x="1.0" y="1.0" />
+   </children>
+</AnchorPane>
